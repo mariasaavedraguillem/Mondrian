@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    .container{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(17,1fr);
+            grid-template-rows: repeat(10,1fr);
+
+        }
+        .element{
+            border: 2px solid black;
+
+        }
+        .ele1{
+            grid-column: 4 span;
+            grid-row: 1 span;
+            background-color: red;
+
+        }
+        .ele2{
+            grid-column: 4 span;
+            grid-row: 3 span;
+            background-color: white;
+        }
+        .ele3{
+            grid-column: 5 span;
+            grid-row: 0;
+            background-color: yellow;
+        }
+        .ele4{
+            grid-column: 4 span;
+            grid-row: 0;
+            background-color: white;
+        }
+        .ele5{
+            grid-column: 4 span;
+            grid-row: 4 span;
+            background-color: white;
+        }
+        .ele6{
+            grid-column: 9 span;
+            grid-row: 2 span ;
+            background-color: white;
+        }
+        .ele7{
+            grid-column: 8 span;
+            grid-row: 1 span;
+            background-color: white;
+        }
+        .ele8{
+            grid-column: 2 span;
+            grid-row: 4 span;
+            background-color: white;
+        }
+        .ele9{
+            grid-column: 3 span;
+            grid-row: 3 span;
+            background-color: white
+        }
+        .ele10{
+            grid-column: 8 span;
+            grid-row: 3 span;
+            background-color: blue;
+        }
+        .ele11{
+            grid-column: 4 span;
+            grid-row: 1 span;
+            background-color: yellow;
+        }
+        .ele12{
+            grid-column: 4 span;
+            grid-row: 3 span;
+            background-color: white;
+        }
+        .ele13{
+            grid-column: 3 span;
+            grid-row: 1 span;
+            background-color: white;
+        }
+        .ele14{
+            grid-column: 5 span;
+            grid-row: 4 span;
+            background-color: red;
+        }
+        .ele15{
+            grid-column: 8 span;
+            grid-row: 2 span;
+            background-color: white
+        }
+        .ele16{
+            grid-column: 2 span;
+            grid-row: 1 span;
+            background-color: white;
+        }
+        .ele17{
+            grid-column: 2 span;
+            grid-row: 1 span;
+            background-color: white;
+        }
+        .ele18{
+            grid-column: 7 span;
+            grid-row: 1 span;
+            background-color: white;
+        }
+        .ele19{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="element ele1"></div>
+        <div class="element ele2"></div>
+        <div class="element ele3"></div>
+        <div class="element ele4"></div>
+        <div class="element ele5"></div>
+        <div class="element ele6"></div>
+        <div class="element ele7"></div>
+        <div class="element ele8"></div>
+        <div class="element ele9"></div>
+        <div class="element ele10"></div>
+        <div class="element ele11"></div>
+        <div class="element ele12"></div>
+        <div class="element ele13"></div>
+        <div class="element ele14"></div>
+        <div class="element ele15"></div>
+        <div class="element ele16"></div>
+        <div class="element ele17"></div>
+        <div class="element ele18"></div>
+        <div class="element ele19"></div>
+    </div>
+</body>
+</html>
